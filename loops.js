@@ -17,5 +17,11 @@ function whileLoop(n) {
   return "done";
 }
 
-
+function doWhileLoop(n) {
+  let i = 0;
+  do {
+    console.log("I run once regardless.")
+    i++
+  } while (i <= num);
+}
 
