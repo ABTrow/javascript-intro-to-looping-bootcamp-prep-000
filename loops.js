@@ -22,6 +22,6 @@ function doWhileLoop(n) {
   do {
     console.log("I run once regardless.")
     i++
-  } while (i <= n);
+  } while (i < n);
 }
 
